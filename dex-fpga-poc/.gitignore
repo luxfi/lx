@@ -1,0 +1,70 @@
+# Build outputs
+build*/
+*.xclbin
+*.xo
+*.bit
+*.ltx
+*.dcp
+*.jou
+*.log
+
+# Vivado/Vitis project files
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+vivado*.str
+vivado*.jou
+vivado*.log
+
+# HLS outputs
+*.autopilot/
+solution*/
+proj*/
+
+# Simulation
+*.wdb
+*.wcfg
+xsim.dir/
+
+# AWS F2 specific
+*.afi
+*.agfi
+*_afi_id.txt
+*.tar
+
+# Host binaries
+*.o
+*.exe
+dex_fpga_host
+packet_gen
+
+# Test outputs
+*.pcap
+*.csv
+results/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Documentation build
+docs/_build/
+*.pdf
