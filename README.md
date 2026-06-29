@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="lx" width="880"></p>
+
 # LX DEX - Planet-Scale Decentralized Exchange
 
 [![Performance](https://img.shields.io/badge/Throughput-581M%20orders%2Fsec-brightgreen)](https://github.com/luxfi/lx)
